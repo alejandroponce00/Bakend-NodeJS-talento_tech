@@ -40,6 +40,11 @@ if (ingresar) {
       case "1":
         alert("Tu saldo es :$" + saldo);
         break;
+        case "2":
+          prompt("cuanto quieres retirar?");
+          alert("dinero retirado");
+
+          break;  
 
       default:
         break;
